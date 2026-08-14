@@ -12,14 +12,18 @@ Major dashboard redesign and improved user experience.
 
 ### Added
 
-- Weekly forecast view
-- Favorite locations feature
-- Improved dashboard layout
+- **Weekly forecast view** — seven-day outlook with wave height ranges, dominant swell direction, and daily condition ratings
+- **Favorite locations feature** — save spots with ⭐, reorder them, and set a default dashboard location
+- **Improved dashboard layout** — reorganized panels put current conditions, forecasts, and alerts in a single glanceable view
 
 ### Improved
 
-- Faster data loading
-- Better mobile responsiveness
+- **Faster data loading** — reduced time-to-first-data on the dashboard
+- **Better mobile responsiveness** — forecast panels and charts now adapt cleanly to smaller screens
+
+### Upgrade Notes
+
+No action required. Your saved settings and locations carry over automatically.
 
 ---
 
@@ -31,12 +35,12 @@ Introduced weather alerts and enhanced visual insights.
 
 ### Added
 
-- Weather alerts
-- Wind speed visualization
+- **Weather alerts** — configurable notifications for high waves and strong winds, plus automatic official storm warnings
+- **Wind speed visualization** — wind trends shown graphically across the hourly forecast
 
 ### Fixed
 
-- Location search accuracy issues
+- Location search accuracy issues, including duplicate and misspelled spot results
 
 ---
 

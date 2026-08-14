@@ -8,7 +8,7 @@ theme:
     - navigation.sections
     - navigation.instant
     - content.code.copy
-    
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -20,14 +20,14 @@ markdown_extensions:
 nav:
   - Home: index.md
   - About This Project: about-project.md
-  - Documentation Architecture: architecture.md
+  - Documentation Architecture: developer-docs/architecture.md
 
   - Developer Documentation:
       - Core Guides:
-          - Getting Started: developer-docs/guides/getting-started.md
-          - Authentication: developer-docs/guides/authentication.md
-          - Rate Limits: developer-docs/guides/rate-limits.md
-          - Error Catalog: developer-docs/guides/error-catalog.md
+          - Getting Started: developer-docs/getting-started.md
+          - Authentication: developer-docs/authentication.md
+          - Rate Limits: developer-docs/rate-limits.md
+          - Error Catalog: developer-docs/error-catalog.md
 
       - API Reference:
           - API v1 Overview: developer-docs/v1/overview.md
@@ -35,17 +35,19 @@ nav:
           - API v2 Overview: developer-docs/v2/overview.md
 
       - SDKs:
-          - Python SDK: developer-docs/sdks/python.md
+          - Python SDK: developer-docs/v1/python.md
 
   - User Documentation:
       - User Guides:
-          - Quick Start: user-documentation/user-guides/quick-start.md
-          - User Manual: user-documentation/user-guides/user-manual.md
+          - Quick Start: quick-start.md
+          - User Manual: user-manual.md
 
       - Help Center:
-          - FAQ: user-documentation/help-center/faq.md
-          - Troubleshooting: user-documentation/help-center/troubleshooting.md
+          - FAQ: faq.md
+          - Troubleshooting: troubleshooting.md
 
-      - Release Notes: user-documentation/release-notes.md
+      - Release Notes: release-notes.md
+      - API Changelog: changelog.md
+
 plugins:
   - search
