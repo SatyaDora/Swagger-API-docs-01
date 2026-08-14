@@ -1,0 +1,11 @@
+extends: existence
+message: "Hedge word '%s' — remove unless the uncertainty is genuine and specific."
+level: suggestion
+ignorecase: true
+tokens:
+  - "can potentially"
+  - "may potentially"
+  - "could potentially"
+  - "in order to"
+  - "generally speaking"
+  - "it is worth noting"

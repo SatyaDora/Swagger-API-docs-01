@@ -1,0 +1,9 @@
+extends: existence
+message: "Generic triad '%s' — replace with one specific, true claim."
+level: suggestion
+ignorecase: true
+tokens:
+  - "fast, secure, and scalable"
+  - "clear, concise, and comprehensive"
+  - "simple, flexible, and powerful"
+  - "robust, reliable, and efficient"

@@ -1,0 +1,11 @@
+extends: existence
+message: "Avoid throat-clearing openers like '%s' — start with the actual point."
+level: warning
+ignorecase: true
+tokens:
+  - "In today's fast-paced"
+  - "It's important to note that"
+  - "It is important to note"
+  - "When it comes to"
+  - "This section will cover"
+  - "Now that we've covered"
